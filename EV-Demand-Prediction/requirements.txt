@@ -1,0 +1,32 @@
+# Data Processing
+pandas==1.5.3
+numpy==1.24.3
+
+# Visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+plotly==5.14.1
+
+# Machine Learning
+scikit-learn==1.2.2
+xgboost==1.7.5
+lightgbm==3.3.5
+
+# Time Series
+statsmodels==0.14.0
+prophet==1.1.4
+
+# Deep Learning
+tensorflow==2.12.0
+
+# Model Interpretation
+shap==0.41.0
+
+# Dashboard
+streamlit==1.22.0
+
+# Utilities
+joblib==1.2.0
+jupyter==1.0.0
+ipykernel==6.22.0
+python-dateutil==2.8.2
