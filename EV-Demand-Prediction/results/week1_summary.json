@@ -1,0 +1,16 @@
+{
+    "Date Range": "2017-01-31 00:00:00 to 2024-02-29 00:00:00",
+    "Total Records": 20819,
+    "Total States": 50,
+    "Total Counties": 311,
+    "Total EVs": "6195315",
+    "Average EV Percentage": 4.139216100677266,
+    "Top State": "WA",
+    "Features Created": [
+        "Year",
+        "Month",
+        "Quarter",
+        "YearMonth",
+        "Season"
+    ]
+}
