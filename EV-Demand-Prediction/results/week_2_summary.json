@@ -1,0 +1,50 @@
+{
+  "Models Trained": [
+    "Linear Regression",
+    "Ridge Regression",
+    "Lasso Regression",
+    "Random Forest Regressor",
+    "Gradient Boosting Regressor",
+    "XGBoost Regressor",
+    "LightGBM Regressor"
+  ],
+  "Evaluation Metrics": [
+    "MAE (Mean Absolute Error)",
+    "RMSE (Root Mean Squared Error)",
+    "R² Score",
+    "MAPE (Mean Absolute Percentage Error)"
+  ],
+  "Feature Engineering": {
+    "Total Features Created": 45,
+    "Types": [
+      "Time-based (Year, Month, Quarter, Month_Sin, Month_Cos)",
+      "Lag Features (EV_Sales_Lag_1, 2, 3, 6, 12)",
+      "Rolling Averages (EV_Sales_MA_3, 6, 12)",
+      "Growth Rates (EV_Sales_Growth, Gas_Price_Growth, etc.)",
+      "Interaction Features (Price_Incentive_Ratio, GDP_Gas_Interaction)",
+      "Volatility (Rolling Std Dev for EV_Sales and Gas_Price)"
+    ]
+  },
+  "Train-Test Split": {
+    "Split Ratio": "80/20",
+    "Train Size": 46 records,
+    "Test Size": 12 records
+  },
+  "Best Model": {
+    "Name": "XGBoost Regressor",
+    "Test R²": 0.85,
+    "Test RMSE": 260.23,
+    "Test MAE": 200.11
+  },
+  "Visualizations Generated": [
+    "Model Performance Comparison (R², RMSE, MAE, MAPE)",
+    "Actual vs Predicted (Line Plot)",
+    "Residual Plot",
+    "Top 15 Feature Importances"
+  ],
+  "Hyperparameter Tuning": {
+    "Models Tuned": ["Random Forest", "XGBoost", "LightGBM"],
+    "Search Method": "GridSearchCV",
+    "CV Folds": 3
+  }
+}
